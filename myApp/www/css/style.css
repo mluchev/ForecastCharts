@@ -1,0 +1,8 @@
+canvas {
+    display: table;
+    margin: 0 auto;
+}
+
+input.numOfDays {
+    text-align: right;
+}

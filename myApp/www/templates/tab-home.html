@@ -1,0 +1,28 @@
+<ion-view view-title="Home">
+    <ion-content class="padding">
+        <div class="list list-inset">
+
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    City
+                </div>
+                <select ng-model="queryData.cityName">
+                    <option>London</option>
+                    <option selected>Sofia</option>
+                    <option>Rome</option>
+                </select>
+            </label>
+
+            <label class="item item-input">
+                <span class="input-label">Number of Days</span>
+                <input type="number" class="numOfDays" ng-model="queryData.numOfDays">
+            </label>
+
+            <button class="button button-full button-positive" ng-click="loadForecast()">
+                Load
+            </button>
+
+        </div>
+
+    </ion-content>
+</ion-view>
